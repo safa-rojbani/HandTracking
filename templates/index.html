@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Kid's Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 24px;
+            padding: 20px 40px;
+            margin: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #canvas-container {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Interactive Kids Page!</h1>
+    <p>Choose what you'd like to try:</p>
+    <button onclick="location.href='/painting'">Virtual Painting</button>
+    <button onclick="location.href='/counting'">Counting Fingers</button>
+
+    <div id="canvas-container">
+        <canvas id="canvas" width="1280" height="720" style="border: 1px solid black;"></canvas>
+    </div>
+</body>
+</html>
