@@ -9,22 +9,25 @@
             font-family: Arial, sans-serif;
             text-align: center;
         }
-        canvas {
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        img {
             border: 1px solid black;
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <h1>Virtual Painting</h1>
-    <p>Use your hand to draw on the canvas!</p>
-    <canvas id="canvas" width="1280" height="720"></canvas>
-    <br>
-    <button onclick="window.history.back()">Back to Main Page</button>
+    <div class="container">
+        <img id="video-feed" src="/video_feed_painting" alt="Live Painting Video Feed">
+        <canvas id="canvas" width="1280" height="720"></canvas>
+    </div>
 
-    <script src="https://www.npmjs.com/package/@mediapipe/hands/v/0.4.1675469240"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core@3.4.0/dist/tf-core.min.js"></script>
-    <script>
-        // Insert the logic from your existing VirtualPainting.js code here
-    </script>
+    <br>
+    <button onclick="window.location.href='/'">Back to Main Page</button>
 </body>
 </html>

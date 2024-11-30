@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edec6b48-cd73-40fa-841a-8a2db9a87d1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/counting.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/counting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/painting.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/painting.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +47,18 @@
     "Python.VolumeHandControl.executor": "Run",
     "Python.VolumeHandControlAdvance.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/safar/PycharmProjects/FlaskApp",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\safar\PycharmProjects\HandTrackingProject\static" />
       <recent name="C:\Users\safar\PycharmProjects\HandTrackingProject\FingerImages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FingerCountingProject">
+  <component name="RunManager" selected="Python.VirtualPainter">
     <configuration name="FingerCountingProject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HandTrackingProject" />
       <option name="ENV_FILES" value="" />
@@ -165,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FingerCountingProject" />
         <item itemvalue="Python.VirtualPainter" />
+        <item itemvalue="Python.FingerCountingProject" />
         <item itemvalue="Python.HandTrackingModule" />
         <item itemvalue="Python.VolumeHandControl" />
         <item itemvalue="Python.MyNewGameHandTracking" />
